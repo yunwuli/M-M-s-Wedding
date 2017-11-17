@@ -1,0 +1,74 @@
+/*=============================================
+=                  Reviews                    =
+=============================================*/
+
+#carouselId .carousel-item {
+    padding: 100px 0;
+}
+
+#reviewsSection .carousel-item {
+    min-height: 450px;
+}
+
+
+/*=============================================
+=                  Gallery                    =
+=============================================*/
+
+[id^='galleryImage'] {
+    background-size: cover;
+    height: 250px;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+[id^='galleryImage']>.galleryText {
+    line-height: 250px;
+    font-size: 6px;
+    color: white;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+[id^='galleryImage']:hover {
+    filter: grayscale(0%)
+}
+
+[id^='galleryImage']:hover>.galleryText {
+    font-size: 30px;
+    opacity: 1;
+}
+
+#galleryImage1 {
+    background-image: url('../img/galleryImage1.jpg');
+}
+
+#galleryImage2 {
+    background-image: url('../img/galleryImage2.jpg');
+}
+
+#galleryImage3 {
+    background-image: url('../img/galleryImage3.jpg');
+}
+
+#galleryImage4 {
+    background-image: url('../img/galleryImage4.jpg');
+}
+
+#galleryImage5 {
+    background-image: url('../img/galleryImage5.jpg');
+}
+
+#galleryImage6 {
+    background-image: url('../img/galleryImage6.jpg');
+}
+
+#galleryImage7 {
+    background-image: url('../img/galleryImage7.jpg');
+}
+
+#galleryImage8 {
+    background-image: url('../img/galleryImage8.jpg');
+}
