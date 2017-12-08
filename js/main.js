@@ -8,8 +8,8 @@ $(document).ready(function () {
     function initMap() {
         // 1.建立變數儲存地理位置 (Object)
         var myLocation = {
-            lat: 24.9756528,
-            lng: 121.5416151
+            lat: 24.9784277,
+            lng: 121.545383
         };
 
         var map = new google.maps.Map(document.getElementById('map'), {
